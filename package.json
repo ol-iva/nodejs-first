@@ -1,0 +1,28 @@
+{
+  "name": "javascript-first-package",
+  "version": "1.0.0",
+  "description": "First node.js package",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:prod": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ol-iva/nodejs-first.git"
+  },
+  "author": "Oliva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ol-iva/nodejs-first/issues"
+  },
+  "homepage": "https://github.com/ol-iva/nodejs-first#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
